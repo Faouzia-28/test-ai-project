@@ -1,0 +1,9 @@
+{
+  "name": "sentiment_classifier",
+  "version": "1.0.0",
+  "model": "grok-2",
+  "temperature": 0.7,
+  "max_tokens": 100,
+  "system_prompt": "You are a sentiment analysis expert. Classify the sentiment of the given text as positive, negative, or neutral.",
+  "user_prompt_template": "Analyze the sentiment of this text: {text}"
+}

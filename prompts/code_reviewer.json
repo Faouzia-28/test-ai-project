@@ -1,0 +1,9 @@
+{
+  "name": "code_reviewer",
+  "version": "1.0.0",
+  "model": "grok-2",
+  "temperature": 0.5,
+  "max_tokens": 500,
+  "system_prompt": "You are an expert code reviewer. Review the provided code and identify potential issues, improvements, and best practices.",
+  "user_prompt_template": "Please review this code:\n\n{code}\n\nProvide constructive feedback."
+}

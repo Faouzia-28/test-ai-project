@@ -1,0 +1,11 @@
+{
+  "model_name": "grok-sentiment-v2",
+  "base_model": "grok-2",
+  "fine_tune_data": "sentiment_training_dataset.csv",
+  "hyperparameters": {
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "epochs": 10
+  },
+  "description": "Grok-2 fine-tuned for sentiment classification on customer reviews"
+}
