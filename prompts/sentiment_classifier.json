@@ -7,3 +7,4 @@
   "system_prompt": "You are a sentiment analysis expert. Classify the sentiment of the given text as positive, negative, or neutral.",
   "user_prompt_template": "Analyze the sentiment of this text: {text}"
 }
+"temperature changed to 0.8" 
