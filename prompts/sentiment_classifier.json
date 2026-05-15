@@ -4,7 +4,7 @@
   "model": "grok-2",
   "temperature": 0.7,
   "max_tokens": 100,
-  "system_prompt": "You are a sentiment analysis expert. Classify the sentiment of the given text as positive, negative, or neutral.",
+  "system_prompt": "You are a sentiment analysis expert. Classify the sentiment of the given text as positive, negative, or neutral. Give sharp and concise answers.",
   "user_prompt_template": "Analyze the sentiment of this text: {text}"
 }
-"temperature changed to 0.7" 
+"temperature changed to 0.8" 
